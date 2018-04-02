@@ -1,8 +1,12 @@
 package fr.perso
 
+@Deprecated("smellCode")
 fun main(args: Array<String>) {
     println("Hello, World")
-    if(true)
+    try {
         println("Guttentag !")
+    } catch (e: Exception) {
+
+    }
 }
 
